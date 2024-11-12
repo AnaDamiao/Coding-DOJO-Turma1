@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordenador de Números</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="../static/script.js"></script>
+</head>
+<body>
+  <div class="ordenador-container">
+    <h1>Ordenador de Números</h1>
+    <p>Insira uma lista de números separados por vírgula:</p>
+    
+    <form action="URL_DA_API" method="post" id="numbers-input">
+      <input type="text" name="numbers" placeholder="Digite os números aqui" required>
+
+      <button type="submit" onclick="sortNumbers()" >Enviar para API</button>
+
+    </form>
+   
+    <div class="list-style">
+    <h3>Lista Ordenada:</h3>
+    
+    <div id="sortedList">
+    </div>
+  </div>
+</div>
+</body>
+</html>
