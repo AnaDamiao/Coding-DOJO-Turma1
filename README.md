@@ -12,19 +12,19 @@ Estrutura do Repositório
 
 Requisitos
 
-# Questão 1
+# Objetivo 1
 Front-End: Página HTML que permite inserir uma lista de números separados por vírgula e enviar para a API, além de exibir a lista ordenada recebida como resposta.
 
-# Questão 2 
+# Objetivo 2
 API (Flask): API que recebe uma lista de números desordenada, valida os dados e os envia para o Back-End para ordenação, retornando o resultado ao Front-End.
 
-# Questão 3
+# Objetivo 3
 Back-End (Python): Algoritmo de ordenação Selection Sort manual implementado em Python, que ordena a lista de números recebida e devolve o resultado para a API.
 
-# Questão 4
+# Objetivo 4
 Integração: Testes de comunicação entre Front-End, API e Back-End, garantindo o envio e recebimento corretos dos dados.
 
-# **Questão 5**
+# Objetivo 5
 Estrutura e Entrega no GitHub: Organização do repositório no GitHub com subpastas e instruções detalhadas de uso para cada componente.
 
 
